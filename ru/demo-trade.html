@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html lang="en" class="black">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Quotex — Инновационная торговля Цифровыми активами</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://market-quotex.net/profile/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://market-quotex.net/profile/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://market-quotex.net/profile/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" href="https://market-quotex.net/profile/favicons/favicon.ico">
+    <link rel="mask-icon" href="https://market-quotex.net/profile/favicons/safari-pinned-tab.svg" color="#a0002a">
+
+    <meta name="description" content="Quotex - это инновационная платформа с доходностью до 98% от каждой инвестиции! Откройте бесплатный демо-счет на $10000, чтобы попрактиковаться. Минимальный депозит всего $10. Отличный выбор!">
+    <meta name="msapplication-TileColor" content="#a0002a">
+    <meta name="msapplication-config" content="https://market-quotex.net/profile/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="interkassa-verification" content="52ae35204ccc1b97dfc591cb53ca5d3a" />
+    <meta name="prmoney" content="afj6FHu9lKgAMB7xflh5cqIz775LkvY9sEbm1AW3" />
+    <link rel="shortcut icon" href="../profile/images/favicon.png">
+
+    <link rel="stylesheet" href="../trade-room/files/styles.css">
+    <link rel="stylesheet" href="../profile/css/custom.css">
+    <script src="../graph/js/anychart-base.min.js"></script>
+
+</head>
+
+<body class="loading">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+        <div class="app app--fixed animate">
+            <aside class="sidebar app__sidebar">
+                <div><svg class="icon-burger-dark sidebar__toggle">
+                    <use xlink:href="../profile/images/spritemap.svg#icon-burger-dark"></use>
+                </svg></div>
+                <nav class="sidebar__buttons"><button class="sidebar__button " data-text="Помощь">
+                    <div class="sidebar__button-icon  "><svg class="icon-help">
+                        <use xlink:href="../profile/images/spritemap.svg#icon-help"></use>
+                    </svg></div>
+                </button><a class="sidebar__button " data-text="Торговля" href="https://quotex.com/ru/trade">
+                    <div class="sidebar__button-icon"><svg class="icon-trade">
+                        <use xlink:href="../profile/images/spritemap.svg#icon-trade"></use>
+                    </svg></div>
+                </a><a class="sidebar__button active" data-text="Демо" href="https://quotex.com/ru/demo-trade">
+                    <div class="sidebar__button-icon"><svg class="icon-academic">
+                        <use xlink:href="../profile/images/spritemap.svg#icon-academic"></use>
+                    </svg></div>
+                </a><a class="sidebar__button  " data-text="Профиль" href="https://quotex.com/ru/settings">
+                    <div class="sidebar__button-icon  "><svg class="icon-profile">
+                        <use xlink:href="../profile/images/spritemap.svg#icon-profile"></use>
+                    </svg></div>
+                </a><a class="sidebar__button " data-text="Аналитика" href="https://quotex.com/ru/analytics">
+                    <div class="sidebar__button-icon"><svg class="icon-analytics">
+                        <use xlink:href="../profile/images/spritemap.svg#icon-analytics"></use>
+                    </svg></div>
+                </a><button class="sidebar__button " data-text="ТОП">
+                    <div class="sidebar__button-icon"><svg class="icon-top">
+                        <use xlink:href="../profile/images/spritemap.svg#icon-top"></use>
+                    </svg></div>
+                </button><button class="sidebar__button " data-text="Сигналы">
+                    <div class="sidebar__button-icon"><svg class="icon-trading-signals">
+                        <use xlink:href="../profile/images/spritemap.svg#icon-trading-signals"></use>
+                    </svg></div>
+                </button><a class="sidebar__button " data-text="Маркет" href="https://quotex.com/ru/market">
+                    <div class="sidebar__button-icon"><svg class="icon-market">
+                        <use xlink:href="../profile/images/spritemap.svg#icon-market"></use>
+                    </svg></div>
+                </a></nav>
+                <div class="sidebar__usermenu">
+                    <div class="sidebar__usermenu-head">demo63aaee9b7cabed@quotex.com</div>
+                    <nav class="sidebar__list-menu"><a class="sidebar__list-menu__link" href="https://quotex.com/ru/deposit">Пополнение</a><a class="sidebar__list-menu__link" href="https://quotex.com/ru/withdrawal">Вывод</a><a class="sidebar__list-menu__link" href="https://quotex.com/ru/balance">Транзакции</a><a class="sidebar__list-menu__link" href="https://quotex.com/ru/trades">Сделки</a><a class="sidebar__list-menu__link" href="https://quotex.com/ru/settings">Профиль</a></nav>
+                </div>
+                <div class="sidebar__footer sidebar__footer--closed">
+                    <div class="sidebar__settings-block"><button class="sidebar__settings-button"><svg class="icon-settings-full-screen">
+                        <use xlink:href="../profile/images/spritemap.svg#icon-settings-full-screen"></use>
+                    </svg></button><button class="sidebar__settings-button rotate"><svg class="icon-left-sidebar">
+                        <use xlink:href="../profile/images/spritemap.svg#icon-left-sidebar"></use>
+                    </svg></button></div>
+                    <div class="sidebar__settings"><button class="sidebar__settings-button"><svg class="icon-settings">
+                        <use xlink:href="../profile/images/spritemap.svg#icon-settings"></use>
+                    </svg></button><button class="sidebar__settings-button"><svg class="icon-settings-sound">
+                        <use xlink:href="../profile/images/spritemap.svg#icon-settings-sound"></use>
+                    </svg></button></div><a href="https://t.me/quotex_io" target="_blank" class="sidebar__telegramchat">
+                    <div><svg class="icon-telegram-chat">
+                        <use xlink:href="../profile/images/spritemap.svg#icon-telegram-chat"></use>
+                    </svg>Official</div>
+                </a>
+                    <div class="sidebar__livechat"><a class="sidebar__livechat-status online" href="https://quotex.com/ru/support/create">Помощь</a></div>
+                </div>
+                <div class="sidebar__footer sidebar__footer--open">
+                    <nav class="sidebar__list-menu sidebar__list-menu--tiny"><a class="list-menu__link" href="https://quotex.com/ru/about-us">О нас</a><a class="sidebar__list-menu__link" href="https://quotex.com/ru/support">Поддержка</a></nav><a class="sidebar__logout" href="https://quotex.com/ru/logout"><svg class="icon-logout">
+                    <use xlink:href="../profile/images/spritemap.svg#icon-logout"></use>
+                </svg> Выйти</a>
+                </div>
+            </aside>
+            <aside class="sidepanel app__sidepanel sidepanel__bg-black"></aside>
+            <div class="page app__page">
+                <header class="header page__header">
+                    <div class="header__brand"><a class="header__logo" href="/trade"><svg class="icon-logo-dark-ny">
+                        <use xlink:href="../profile/images/spritemap.svg#icon-logo-dark-ny"></use>
+                    </svg></a>
+                        <div class="header__slogan">Web Trading Platform</div>
+                    </div>
+                    <div class="header__mobile-menu"></div>
+                    <div class="header__banner"><img class="header__banner-bg" src="/trade-room/files/images/836706f2ad13ef069a95ec7b93f73ca4.png" alt="Banner bg"><a class="header__banner-container" href="https://quotex.com/ru/deposit?code=WELCOME30"><img class="header__banner-icon" src="/trade-room/files/images/a3ed7eb9ad1daeae29a49b505c4f826f.png" alt="Banner icon"><span>Получите бонус 30% на ваш депозит</span>
+                        <div class="header__banner-percents">30%</div>
+                    </a>
+                        <div class="header__banner-close"><svg class="icon-close">
+                            <use xlink:href="../profile/images/spritemap.svg#icon-close"></use>
+                        </svg></div>
+                    </div>
+                    <div class="trading-chart__mobile-select ">
+                        <div class="flags trading-chart__mobile-select__flags"><svg class="flag-aud">
+                            <use xlink:href="../profile/images/flag.svg#flag-aud"></use>
+                        </svg><svg class="flag-usd">
+                            <use xlink:href="../profile/images/flag.svg#flag-usd"></use>
+                        </svg></div>
+                        <div>AUD/USD (OTC)</div>
+                        <div class="trading-chart__mobile-select__percent">88%</div><svg class="icon-caret trading-chart__mobile-select__caret">
+                        <use xlink:href="../profile/images/spritemap.svg#icon-caret"></use>
+                    </svg>
+                    </div>
+                    <div class="trading-chart__mobile__payout">Ваша выплата: <b class="trading-chart__mobile__payout-up">1880.00 $</b></div>
+                    <div class="header-notifications header-notifications-mobile">
+                        <div class="header-notifications__button "><svg class="icon-notification header-notifications__icon">
+                            <use xlink:href="../profile/images/spritemap.svg#icon-notification"></use>
+                        </svg></div>
+                    </div>
+                    <div class="usermenu usermenu-mobile">
+                        <div class="usermenu-mobile__info">
+                            <div class="usermenu-mobile__info-levels"><svg class="icon-profile-level-standart">
+                                <use xlink:href="../profile/images/spritemap.svg#icon-profile-level-standart"></use>
+                            </svg></div>
+                            <div class="usermenu-mobile__info-name">Демо</div>
+                            <div class="usermenu-mobile__info-balance">$10,000.00</div>
+                            <div class="usermenu-mobile__info-caret"><svg class="icon-caret">
+                                <use xlink:href="../profile/images/spritemap.svg#icon-caret"></use>
+                            </svg></div>
+                        </div>
+                    </div>
+                    <div class="header__container">
+                        <div class="header-notifications ">
+                            <div class="header-notifications__button "><svg class="icon-notification header-notifications__icon">
+                                <use xlink:href="../profile/images/spritemap.svg#icon-notification"></use>
+                            </svg></div>
+                        </div>
+                        <div class="usermenu">
+                            <div class="usermenu__info">
+                                <div class="usermenu__info-levels"><svg class="icon-profile-level-standart">
+                                    <use xlink:href="../profile/images/spritemap.svg#icon-profile-level-standart"></use>
+                                </svg></div>
+                                <div class="usermenu__info-text">
+                                    <div class="usermenu__info-name">Демо счет</div>
+                                    <div class="usermenu__info-balance">$10,000.00</div>
+                                </div>
+                                <div class="usermenu__info-caret"><svg class="icon-caret">
+                                    <use xlink:href="../profile/images/spritemap.svg#icon-caret"></use>
+                                </svg></div>
+                            </div>
+                        </div>
+                        <div class="header__sidebar"><a class="button button--success button--small header__sidebar-button deposit " href="https://quotex.com/ru/deposit">
+                            <div class="button__icon"><svg class="icon-plus">
+                                <use xlink:href="../profile/images/spritemap.svg#icon-plus"></use>
+                            </svg></div><span>Пополнение</span>
+                        </a><a class="button button--small header__sidebar-button hide-md-down" href="https://quotex.com/ru/withdrawal">Вывод</a></div>
+                    </div>
+                </header>
+                <main class="page__body">
+                    <div class="page__content">
+                        <div class="trading-chart trading-chart--fade-in">
+                            <div class="trading-chart__wrapper">
+                                <div class="chart">
+                                    <div class="trading-chart__button-arrow "><svg class="icon-arrow-right">
+                                        <use xlink:href="../profile/images/spritemap.svg#icon-arrow-right"></use>
+                                    </svg></div>
+                                    <div class="chart-container" id="graph" style="cursor: default;"><canvas class="layer plot" width="480" height="442" style="touch-action: none; width: 320px; height: 295px; position: absolute; cursor: inherit;"></canvas></div>
+                                </div>
+                            </div>
+                            <div class="trading-chart__top">
+                                <div class="trading-chart__assets">
+                                    <div class="asset-select"><button class="asset-select__button"><svg class="icon-plus">
+                                        <use xlink:href="../profile/images/spritemap.svg#icon-plus"></use>
+                                    </svg></button>
+                                        <div></div>
+                                    </div>
+                                    <div class="tabs">
+                                        <div class="tabs__items">
+                                            <div class="tab desktop" style="left: 0px; z-index: 0;">
+                                                <div class="tab__container">
+                                                    <div class="tab__flags"><svg class="tab__flag flag-usd">
+                                                        <use xlink:href="../profile/images/flag.svg#flag-usd"></use>
+                                                    </svg><svg class="tab__flag flag-cad">
+                                                        <use xlink:href="../profile/images/flag.svg#flag-cad"></use>
+                                                    </svg></div>
+                                                    <div class="tab__block">
+                                                        <div class="tab__block-label">
+                                                            <div class="tab__label">USD/CAD</div>
+                                                        </div>
+                                                        <div class="tab__block-payout">
+                                                            <div class="tab__payout">67%</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab__close"><svg class="icon-close-tiny">
+                                                    <use xlink:href="../profile/images/spritemap.svg#icon-close-tiny"></use>
+                                                </svg></div>
+                                                <div class="tab__pin "><svg class="icon-pin">
+                                                    <use xlink:href="../profile/images/spritemap.svg#icon-pin"></use>
+                                                </svg></div>
+                                            </div>
+                                            <div class="tab desktop" style="z-index: 1; left: 148px;">
+                                                <div class="tab__container">
+                                                    <div class="tab__flags"><svg class="tab__flag flag-aud">
+                                                        <use xlink:href="../profile/images/flag.svg#flag-aud"></use>
+                                                    </svg><svg class="tab__flag flag-usd">
+                                                        <use xlink:href="../profile/images/flag.svg#flag-usd"></use>
+                                                    </svg></div>
+                                                    <div class="tab__block">
+                                                        <div class="tab__block-label">
+                                                            <div class="tab__label">AUD/USD</div>
+                                                        </div>
+                                                        <div class="tab__block-payout">
+                                                            <div class="tab__payout">79%</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab__close"><svg class="icon-close-tiny">
+                                                    <use xlink:href="../profile/images/spritemap.svg#icon-close-tiny"></use>
+                                                </svg></div>
+                                                <div class="tab__pin "><svg class="icon-pin">
+                                                    <use xlink:href="../profile/images/spritemap.svg#icon-pin"></use>
+                                                </svg></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="trading-chart__server-time">
+                                    <div class="server-time online">13:15:50 <span>UTC</span></div>
+                                </div>
+                                <div class="pair-information"><svg class="icon-pair-information">
+                                    <use xlink:href="../profile/images/spritemap.svg#icon-pair-information"></use>
+                                </svg>
+                                    <div class="pair-information__text"> Информация о паре</div>
+                                </div>
+                            </div>
+                            <div class="trading-chart__left">
+                                <div class="market-depth-vertical">
+                                    <div class="market-depth-vertical__ask-value">64%</div>
+                                    <div class="market-depth-vertical__ask" style="height: 64%;"></div>
+                                    <div class="market-depth-vertical__bid-value">36%</div>
+                                    <div class="market-depth-vertical__bid" style="height: 36%;"></div>
+                                </div>
+                            </div>
+                            <div class="trading-chart__button-zoom" style="bottom: 20px;">
+                                <div class="trading-chart__button-zoom__icon"><svg class="icon-minus-zoom">
+                                    <use xlink:href="../profile/images/spritemap.svg#icon-minus-zoom"></use>
+                                </svg></div>
+                                <div class="trading-chart__button-zoom__icon"><svg class="icon-plus-zoom">
+                                    <use xlink:href="../profile/images/spritemap.svg#icon-plus-zoom"></use>
+                                </svg></div>
+                            </div>
+                            <div class="trading-chart-settings" style="bottom: 30px;">
+                                <div class="trading-chart-settings__toggle"><svg class="icon-ellipsis trading-chart-settings__item-icon">
+                                    <use xlink:href="../profile/images/spritemap.svg#icon-ellipsis"></use>
+                                </svg></div>
+                                <div class="trading-chart-settings__item"><svg class="icon-pencil trading-chart-settings__item-icon">
+                                    <use xlink:href="../profile/images/spritemap.svg#icon-pencil"></use>
+                                </svg></div>
+                                <div class="trading-chart-settings__item">1m</div>
+                                <div class="trading-chart-settings__item"><svg class="icon-chart-type-ha trading-chart-settings__item-icon">
+                                    <use xlink:href="../profile/images/spritemap.svg#icon-chart-type-ha"></use>
+                                </svg></div>
+                                <div class="trading-chart-settings__item"><svg class="icon-chart-ruler trading-chart-settings__item-icon">
+                                    <use xlink:href="../profile/images/spritemap.svg#icon-chart-ruler"></use>
+                                </svg></div>
+                            </div>
+                            <div class="trading-chart-settings-mobile-horizontal">
+                                <div class="trading-chart-settings-mobile-horizontal__item"><svg class="icon-ellipsis trading-chart-settings-mobile-horizontal__item-icon">
+                                    <use xlink:href="../profile/images/spritemap.svg#icon-ellipsis"></use>
+                                </svg></div>
+                                <div class="trading-chart-settings-mobile-horizontal__item horizontal"><svg class="icon-mobile-deal-list trading-chart-settings-mobile-horizontal__item-icon">
+                                    <use xlink:href="../profile/images/spritemap.svg#icon-mobile-deal-list"></use>
+                                </svg>
+                                    <div class="trading-chart-settings-mobile-horizontal__item-icon__count">
+                                        <div>0</div>
+                                    </div>
+                                </div>
+                                <div class="trading-chart-settings-mobile-horizontal__item vertical"><svg class="icon-mobile-deal-list trading-chart-settings-mobile-horizontal__item-icon">
+                                    <use xlink:href="../profile/images/spritemap.svg#icon-mobile-deal-list"></use>
+                                </svg>
+                                    <div class="trading-chart-settings-mobile-horizontal__item-icon__count">
+                                        <div>0</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page__sidebar">
+                        <div class="sidebar-section sidebar-section--dark sidebar-section--large">
+                            <div class="section-deal">
+                                <div class="section-deal__header">
+                                    <div class="flags section-deal__flags"><svg class="flag-aud">
+                                        <use xlink:href="../profile/images/flag.svg#flag-aud"></use>
+                                    </svg><svg class="flag-usd">
+                                        <use xlink:href="../profile/images/flag.svg#flag-usd"></use>
+                                    </svg></div>
+                                    <div class="section-deal__name">AUD/USD (OTC)</div>
+                                    <div class="section-deal__percent">88%</div>
+                                </div>
+                                <div class="trading-chart__mobile-select section-deal__mobile-select">
+                                    <div class="flags trading-chart__mobile-select__flags"><svg class="flag-aud">
+                                        <use xlink:href="../profile/images/flag.svg#flag-aud"></use>
+                                    </svg><svg class="flag-usd">
+                                        <use xlink:href="../profile/images/flag.svg#flag-usd"></use>
+                                    </svg></div>
+                                    <div>AUD/USD (OTC)</div>
+                                    <div class="trading-chart__mobile-select__percent">88%</div><svg class="icon-caret trading-chart__mobile-select__caret">
+                                    <use xlink:href="../profile/images/spritemap.svg#icon-caret"></use>
+                                </svg>
+                                </div>
+                                <div class="trading-chart__mobile__payout">Ваша выплата: <b class="trading-chart__mobile__payout-up">1880.00 $</b></div>
+                                <div class="section-deal__pending "><svg class="icon-time-setting section-deal__pending-time">
+                                    <use xlink:href="../profile/images/spritemap.svg#icon-time-setting"></use>
+                                </svg>
+                                    <div>отложенная сделка</div>
+                                    <div class="input-control input-control--toggle"><input id="pending-checkbox" class="input-control__checkbox" type="checkbox"><span class="input-control__label section-deal__pending-label"></span></div>
+                                </div>
+                                <div class="section-deal__form">
+                                    <div class="section-deal__time section-deal__input-black"><label class="input-control input-control--time input-control--dark  section-deal__input-control" for="-286600778959"><span class="input-control__label">Время</span><span class="input-control__label__switch">Переключить</span><button class="input-control__button">-</button><input id="-286600778959" type="text" placeholder="00:00:30" class="input-control__input opacity" value="00:01:00"><button class="input-control__button">+</button>
+                                        <div class="input-control__dropdown">
+                                            <div class="input-control__dropdown-option">00:05</div>
+                                            <div class="input-control__dropdown-option">00:10</div>
+                                            <div class="input-control__dropdown-option">00:15</div>
+                                            <div class="input-control__dropdown-option">00:30</div>
+                                            <div class="input-control__dropdown-option">01:00</div>
+                                            <div class="input-control__dropdown-option">02:00</div>
+                                            <div class="input-control__dropdown-option">05:00</div>
+                                            <div class="input-control__dropdown-option">10:00</div>
+                                            <div class="input-control__dropdown-option">15:00</div>
+                                            <div class="input-control__dropdown-option">30:00</div>
+                                            <div class="input-control__dropdown-option">01:00:00</div>
+                                            <div class="input-control__dropdown-option">02:00:00</div>
+                                            <div class="input-control__dropdown-option">04:00:00</div>
+                                        </div>
+                                    </label>
+                                        <div class="mobile-time-input">
+                                            <div class="input-control-wrapper section-deal--black"><label class="input-control input-control--number input-control--dark  input-control--text-left"><span class="input-control__label">Timer</span><input type="text" disabled="" class="input-control__input mobile-time-input__block" value="00:01:00" style="width: 54px;"></label></div>
+                                            <div class="mobile-time-input__options ">
+                                                <div class="mobile-time-input__options-tabs">
+                                                    <div class="mobile-time-input__options-tab active">таймер</div>
+                                                    <div class="mobile-time-input__options-tab ">время</div>
+                                                </div>
+                                                <div class="mobile-time-input__options-items">
+                                                    <div class="mobile-time-input__options-item ">00:05</div>
+                                                    <div class="mobile-time-input__options-item ">00:10</div>
+                                                    <div class="mobile-time-input__options-item ">00:15</div>
+                                                    <div class="mobile-time-input__options-item ">00:30</div>
+                                                    <div class="mobile-time-input__options-item  active">01:00</div>
+                                                    <div class="mobile-time-input__options-item ">02:00</div>
+                                                    <div class="mobile-time-input__options-item ">05:00</div>
+                                                    <div class="mobile-time-input__options-item ">10:00</div>
+                                                    <div class="mobile-time-input__options-item ">15:00</div>
+                                                    <div class="mobile-time-input__options-item ">30:00</div>
+                                                    <div class="mobile-time-input__options-item ">01:00:00</div>
+                                                    <div class="mobile-time-input__options-item ">02:00:00</div>
+                                                    <div class="mobile-time-input__options-item ">04:00:00</div>
+                                                </div>
+                                                <div class="mobile-time-input__options-manually">Ввести другое</div>
+                                                <div class="switch-tooltip ">Opening deals by time is currently available only for OTC trading.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="section-deal__investment section-deal__input-black">
+                                        <div class="input-control-wrapper section-deal--black"><label class="input-control input-control--number input-control--dark  input-control--text-left"><span class="input-control__label">Инвестиции</span><button class="input-control__button">-</button><input type="text" class="input-control__input" value="1000"><button class="input-control__button" disabled="">+</button><span class="input-control__label__switch">Переключить</span></label></div>
+                                    </div>
+                                </div>
+                                <div class="section-deal__put">
+                                    <div class="section-deal__success  percent"><button class="button button--success button--spaced call-btn section-deal__button"><span>Выше</span><svg class="icon-arrow-up-circle">
+                                        <use xlink:href="../profile/images/spritemap.svg#icon-arrow-up-circle"></use>
+                                    </svg></button></div>
+                                    <div class="section-deal__payout">Ваша выплата: <b>1880.00 $</b>
+                                        <div class="section-deal__percent">88%</div>
+                                    </div>
+                                    <div class="section-deal__mobile-payout ">Выплата: <div class="section-deal__mobile-payout__border"></div><b>1880.00 $</b></div>
+                                    <div class="section-deal__danger"><button class="button button--danger button--spaced put-btn section-deal__button"><span>Ниже</span><svg class="icon-arrow-down-circle">
+                                        <use xlink:href="../profile/images/spritemap.svg#icon-arrow-down-circle"></use>
+                                    </svg></button></div>
+                                </div>
+                                <div class="switch-tooltip " style="top: 152px; right: 206px;">Opening deals by time is currently available only for OTC trading.</div>
+                            </div>
+                        </div>
+                        <div class="deal-list  active">
+                            <div class="deal-list__tabs">
+                                <div class="deal-list__tab  active">
+                                    <div>Сделки</div>
+                                    <div class="deal-list__tab-count">0</div>
+                                </div>
+                                <div class="deal-list__tab "><svg class="icon-deal-list-orders">
+                                    <use xlink:href="../profile/images/spritemap.svg#icon-deal-list-orders"></use>
+                                </svg>
+                                    <div class="deal-list__tab-count">0</div>
+                                </div>
+                            </div>
+                            <div class="deal-list__items active">
+                                <div class="trades__placeholder"><svg class="icon-trades-empty">
+                                    <use xlink:href="../profile/images/spritemap.svg#icon-trades-empty"></use>
+                                </svg>
+                                    <p>У вас еще нет истории торговли. Вы можете открыть сделку, используя форму выше.</p>
+                                </div>
+                            </div>
+                            <div class="deal-list__toggle active"><svg class="icon-arrow-triangle-small-up">
+                                <use xlink:href="../profile/images/spritemap.svg#icon-arrow-triangle-small-up"></use>
+                            </svg></div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <div class="app__backdrop"></div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+        window.tJSON = {
+            "Price reached {price}": "Цена достигнута: {price}",
+            "Apply": "Применить",
+            "1 day change": "Изменение за 1 день",
+            "60 min change": "Изменение за 60 минут",
+            "5 min change": "Изменение за 5 минут",
+            "Buy": "Покупать",
+            "Sell": "Продавать",
+            "Neutral": "Нейтральное",
+            "Traders’ Sentiment": "Настроение рынка",
+            "Pair Information": " Информация о паре",
+            "Fixed profitability": "Фиксированная доходность",
+            "From 9.00 to 18.00 (UTC+3)": " C 9.00 до 18.00 (UTC+3)",
+            "From": "С",
+            "To": "До",
+            "Trade Now": "Торговать",
+            "Closes today at {closeTime}": "Закрывается сегодня в {closeTime}",
+            "Open Now": "Открыто сейчас",
+            "Minimum investment": "Минимальная инвестиция",
+            "Profit - 5+ min": "Доходность - 5+ мин.",
+            "Profit - 1 min": "Доходность - 1 мин.",
+            "Expiry time": "Время экспирации",
+            "1 min - 4 hour": "1 мин - 4 часа",
+            "1 month change": "Изм. за 1 месяц",
+            "1 year change": "Изм. за 1 год",
+            "YTD change": "Изм. с начала года",
+            "Trading Time": "Время торговли",
+            "Weekday": "Будний день",
+            "Date": "Дата",
+            "Trading Schedule": "Торговое расписание",
+            "Session Change": "Изменение за сессию",
+            "Price Now": "Цена сейчас",
+            "Demo account": "Демо-аккаунт",
+            "Market": "Маркет",
+            "Sell the trade": "Продать сделку",
+            "Sell now": "Продать сейчас",
+            "Get instantly answers": "Получайте ответы быстро",
+            "Online chat": "Онлайн чат",
+            "Max trade amount": "Максимальная сумма сделки",
+            "Smoothing period": "Smoothing period",
+            "How does this rating work?": "Как работает этот рейтинг?",
+            "of the Day": "текущего дня",
+            "Didn't find an answer to your question?": "Не нашли ответ на свой вопрос?",
+            "Search": "Искать",
+            "Nothing has been found for current query, try another asset name.": "По запросу ничего не найдено.",
+            "My rating in the Leader Board": "Мой рейтинг в ТОПе",
+            "Your position:": "Ваша позиция:",
+            "Participants can only be those who trade in live mode": "Участвуют трейдеры, которые торгуют на Реальном счете",
+            "Your position depends on the amount of earned money": "Ваша позиция зависит от объема полученной прибыли",
+            "Calculated every day, from 00:00 UTC to 23:59 UTC": "Рассчитывается каждый день, с 00: 00 UTC до 23: 59 UTC",
+            "All traders on our platform participate in this rating. Main features of the rating:": "Все трейдеры на нашей платформе участвуют в этом рейтинге. Основные особенности рейтинга:",
+            "How does it work?": "Как это работает?",
+            "Backstep": "Назад",
+            "Depth": "Глубина",
+            "24h changing": "Изменения 24ч",
+            "Rate of return": "Доходность",
+            "Trade sold successfully": "Сделка продана успешно",
+            "You cannot sell a hedged trade": "Вы не можете продать захеджированную сделку",
+            "You cannot sell a trade": "Вы не можете продать сделку",
+            "Learn to trade without risk": "Учитесь торговать без риска",
+            "Delete": "Удалить",
+            "Ok": "ОК",
+            "Delete all": "Удалить все",
+            "Return back to FAQ": "Вернуться к FAQ",
+            "Return back to Help": "Вернуться к справке",
+            "How to withdraw money from the account?": "Как вывести деньги со счета?",
+            "The procedure for withdrawing capital is extremely simple and is carried out through your individual account.": "Процедура вывода капитала предельно проста и совершается через Ваш личный кабинет.",
+            "The method that you have chosen to deposit the account is also a method of withdrawing funds (see the question \"How can I deposit?\").": "Способ, который Вы выбрали для пополнения счета, является и способом снятия средств (см. вопрос «Как можно пополнить счет?»).",
+            "For example, if you made a deposit to your account via the Visa payment system, you will also withdraw money via the Visa payment system.": "Например, если для заключения сделки Вы пополнили свой счет через платежную систему Visa, то и снимать деньги Вы будете через платежную систему Visa.",
+            "When it comes to the withdrawal of a sufficiently large amount, the Company may request verification (verification is requested at the Company's sole discretion), which is why it is very important to register an account individually for yourself in order to confirm your rights to it at any time.": "Когда речь идет о выводе достаточно крупной суммы, Компания может запросить верификацию (верификация запрашивается на личное усмотрение Компании), вот почему очень важно регистрировать счет лично на себя, чтобы в любой момент время подтвердить свои права на него.",
+            "What is the minimum withdrawal amount?": "Какова минимальная сумма вывода?",
+            "The minimum withdrawal amount starts from %s USD for most payment systems.<br>For cryptocurrencies this amount starts from 50 USD (and may be higher for certain currencies e.g. Bitcoin).": "Минимальная сумма вывода начинается с 10 USD  для большинства платежных систем.<br> Для криптовалют эта сумма начинается от 50 USD (и может быть выше для некоторых валют, например Bitcoin).",
+            "Do I need to provide any documents to make a withdrawal?": "Нужны ли какие-нибудь документы, чтобы осуществить вывод средств?",
+            "Usually, additional documents to withdraw funds are not needed . But the Company at its discretion may ask you to confirm your personal data by requesting certain documents. Usually this is done in order to prevent activities related to illegal trade, financial fraud, as well as the use of funds obtained illegally.": "Обычно для вывода средств дополнительные документы не нужны. Но Компания по своему усмотрению может попросить Вас подтвердить свои личные данные путем запроса определенных документов. Обычно это делается в целях предотвращения действий, связанных с незаконной торговлей, финансовыми махинациями, а также использованием средств, полученных незаконным путем.",
+            "The list of such documents is minimum, and the operation to provide them will not take you much time and effort.": "Список таких документов минимален, а операция по их предоставлению не отнимет у Вас много времени и сил.",
+            "How long does it take to withdraw funds?": "Сколько времени занимает вывод средств?",
+            "On average, the withdrawal procedure takes from one to five days from the date of receipt of the corresponding request of the Client and depends only on the volume of simultaneously processed requests. The company always tries to make payments directly on the day the request is received from the Client.": "В среднем процедура вывода средств занимает от одного до пяти дней с даты получения соответствующей заявки Клиента и зависит только от объема одновременно обрабатываемых заявок. Компания всегда старается производить выплаты непосредственно в день поступления запроса от Клиента.",
+            "Is there any fee for depositing or withdrawing funds from the account?": "Существует ли комиссия при пополнении или выводе средств со счета?",
+            "No. The company does not charge any fee for either the deposit or for the withdrawal operations.": "Нет. Компания не взымает комиссию ни за операцию пополнения счета, ни за вывод средств.",
+            "However, it is worth considering that payment systems can charge their fee and use the internal currency conversion rate.": "Однако, стоит учитывать, что платежные системы могут взимать свои комиссии и использовать внутренний курс конвертации валют.",
+            "Can I close my account? How to do it?": "Могу я закрыть свой счет? Как это сделать?",
+            "You can delete an account in your Individual Account by clicking on the “Delete Account” button located at the bottom of the profile page.": "Удалить счет можно в Вашем Личном кабинете, нажав на кнопку «Удалить счет», расположенную в нижней части страницы профиля.",
+            "If I made a mistake during entering data into my individual account, how can I fix this?": "Я ввел(а) неверные данные, как это исправить?",
+            "You have to contact the technical support service on the Company's website and edit the profile.": "Необходимо обратиться в службу поддержки через сайт компании, а затем отредактировать данные профиля.",
+            "What data is required to register on the Company website?": "Какие данные нужны для регистрации на сайте Компании?",
+            "To earn money on digital options, you must first open an account that allows you to conduct trades. To do this, you need to register on the Company website.": "Для заработка на бинарных опционах сначала следует открыть счет, позволяющий проводить сделки. Для этого необходимо пройти регистрацию на сайте Компании.",
+            "The registration process is simple and does not take much time.": "Процесс регистрации простой и не отнимет у Вас много времени.",
+            "It is necessary to fill out a questionnaire on the proposed form. You will be required to enter the following information:": "Необходимо заполнить анкету по предложенной форме. От Вас потребуется ввести следующую информацию:",
+            "name (in English)": "имя (на русском языке);",
+            "email address (indicate the current, work, address)": "адрес электронной почты (указывайте актуальный, рабочий, адрес);",
+            "telephone (with a code, for example, + 44123 ....)": "телефон (с кодом, например, +7911….);",
+            "a password that you will use in future to enter the system (in order to minimize the risk of unauthorized access to your individual account, we recommend that you create a complex password using lowercase, uppercase letters and numbers. Do not disclose the password to third parties)": "пароль, который в дальнейшем будет Вами использоваться для входа в систему (в целях минимизации риска несанкционированного входа в ваш личный аккаунт, рекомендуем придумать сложный пароль с использованием строчных, заглавных букв и цифр. Не сообщайте пароль третьим лицам).",
+            "After filling out the questionnaire, you will be offered various ways to  deposit an account for trading.": "После заполнения формы вам будут предложены различные способы пополнения торгового счета.",
+            "In what currency is the Client's account opened? Can I change the currency of the Client's account?": "В какой валюте открывается счет? Можно ли изменять валюту счета Клиента?",
+            "By default, a trading account is opened in US dollars. But for your convenience, you can open several accounts in different currencies.": "По умолчанию торговый счет открывается в долларах США. Но для Вашего удобства Вы можете поменять валюту счета в любой момент.",
+            "A list of available currencies can be found on your profile page in your Client's account.": "Список доступных валют можно посмотреть на странице Вашего профиля в личном кабинете.",
+            "What are digital options?": "Что такое Digital Trading опционы?",
+            "Option -  a derivative financial instrument based on any underlying asset (it can be a stock, currency pairs, oil, etc.).": "Опционом называется производный финансовый контракт (дериватив), в основе которого лежит любой базовый актив – акция, валютная пара, нефть и т.д.",
+            "DIGITAL OPTION - a non-standard option that is used to make a profit on price movements of such assets for a certain period of time.": "Digital опцион - нестандартный опцион, который используют для получения прибыли на движениях цены таких активов за определенный период времени.",
+            "A digital option, depending on the terms agreed upon by the parties to the transaction, at a time determined by the parties, brings a fixed income (the difference between the trade income and the price of the asset) or loss (in the amount of the value of the asset).": "Digital опцион в зависимости от оговоренного сторонами сделки условия, в определенное сторонами время, приносит фиксированный доход (разница между доходом от сделки и ценой актива) или убыток (в размере стоимости актива).",
+            "Since the digital option is purchased in advance at a fixed price, the size of the profit, as well as the size of the potential loss, are known even before the trade.": "Так как digital опцион приобретают заранее по фиксированной цене, то размер прибыли, как и размер потенциального убытка, известны еще до совершения сделки.",
+            "Another feature of these deals is the time limit. Any option has its own term (expiration time or conclusion time).": "Еще одна особенность этих сделок – ограничение по времени. Любой опцион имеет свой срок (время экспирации или исполнения).",
+            "Regardless of the degree of change in the price of the underlying asset (how much it has become higher or lower), in case of winning an option, a fixed payment is always made. Therefore, your risks are limited only by the amount for which the option is acquired.": "Независимо от степени изменения цены базового актива (насколько она стала выше или ниже), в случае выигрыша опциона, всегда производится фиксированная выплата. Следовательно, Ваши риски ограничены только той суммой, на которую приобретается опцион.",
+            "What is the expiration period of a trade?": "Что такое период экспирации сделки?",
+            "The expiration period is the time after which the trade will be considered completed (closed) and the result is automatically summed up.": "Период экспирации – это время, по истечении которого сделка будет считаться исполненной (завершенной) и по ней автоматически подводится итог.",
+            "When concluding a trade with digital options, you independently determine the time of execution of the transaction (1 minute, 2 hours, month, etc.).": "При заключении сделки с Digital опционами Вы самостоятельно определяете время исполнения сделки (1 минута, 2 часа, месяц и т.д.).",
+            "What is the gist of digital options trading?": "В чем заключается суть торговли Digital Trading?",
+            "The fact is that a digital option is the simplest type of derivative financial instrument. In order to make money in the digital options market, you do not need to predict the value of the market price of an asset that it can reach.": "Дело в том, что Digital опцион - это самый простой вид производного финансового инструмента. Для того, чтобы зарабатывать деньги на рынке Digital опционов, не нужно прогнозировать значение рыночной цены актива, которое она может достичь.",
+            "The principle of the trading process is reduced only to the solution of one single task - the price of an asset will increase or decrease by the time the contract is executed.": "Принцип торгового процесса сводится лишь к решению одной единственной задачи - повысится или понизится цена актива к моменту исполнения контракта.",
+            "The aspect of such options is that it does not matter to you at all, that the price of the underlying asset will go one hundred points or only one, from the moment the trade is concluded to its close. It is important for you to determine only the direction of movement of this price.": "Особенность такого рода опционов в том, что Вам абсолютно неважно, пройдет цена базового актива сто пунктов или всего один с момента заключения сделки до ее закрытия. Вам важно определить только направление движения этой цены.",
+            "If your prognosis is correct, in any case you get a fixed income.": "Если Ваш прогноз окажется верным, Вы в любом случае получаете фиксированный доход.",
+            "What are the possible results of the placed trades?": "Какие существуют варианты результата проведенной сделки?",
+            "There are three possible outcomes in the digital options market:": "Существует три варианты развития событий на рынке Digital опционов:",
+            "in the event that your prognosis of determining the direction of the price movement of the underlying asset is correct, you receive income.": "в случае, если Ваш прогноз определения направления движения цены базового актива оказался верным, вы получаете доход.",
+            "if by the time the option was concluded your forecast turned out to be erroneous, you incur a loss limited by the size of the asset value (i.e., in fact, you can only lose your investment).": "в случае, если к моменту исполнения опциона Ваш прогноз оказался ошибочным, Вы несете убыток, ограниченный размером стоимости актива (т.е. по сути, Вы можете потерять только свою инвестицию);",
+            "if the outcome of the trade is zero (the price of the underlying asset has not changed, the option is concluded at the price at which it was purchased), you return your investment.Thus, the level of your risk is always limited only by the size of the asset value.": "в случае, если итог сделки оказался нулевым (цена базового актива не изменилась, опцион исполнился по цене, по которой был приобретен), Вы возвращаете себе свою инвестицию.",
+            "Does your trading platform have a demo account in order to understand the process of working with digital options without spending your own money?": "Существует ли на вашей торговой платформе учебный счет для того, чтобы понять процесс работы с Digital опционами, не тратя при этом собственные денежные средства?",
+            "Yes. In order to develop trading skills and test the capabilities of the Company's trading platform, you can use a demo account (free of charge). This is a kind of simulator that allows you to try first, and only then move on to real trading. Such a demo account is also suitable for experienced traders to improve their professional level.": "Да. В целях освоения торговых навыков и тестирования возможностей торговой платформы Компании, Вы можете воспользоваться учебным счетом (бесплатный счет). Это своего рода тренажер, позволяющий сначала попробовать, а только потом переходить к реальной торговле. Такой демо-счет также подойдет и опытным трейдерам для повышения их профессионального уровня.",
+            "The balance of such an account is 10,000 units.": "Баланс такого счета составляет 10000 единиц.",
+            "What determines profit size?": "От чего зависит размер прибыли?",
+            "There are several factors that affect the size of your profit:": "Можно выделить несколько факторов, которые влияют на размер Вашей прибыли:",
+            "the liquidity of the asset you have chosen in the market (the more the asset is in demand in the market, the more profit you will receive)": "ликвидность выбранного Вами актива на рынке (чем больше актив востребован на рынке, тем большую прибыль Вы получите)",
+            "the time of the trade (the liquidity of an asset in the morning and the liquidity of an asset in the afternoon can vary significantly)": "время совершения сделки (ликвидность актива утром и ликвидность актива днем могут существенно отличаться)",
+            "tariffs of a brokerage company": "тарифы брокерской компании",
+            "changes in the market (economic events, changes in part of a financial asset, etc.)": "изменения на рынке (экономические события, изменения в части того или иного финансового актива и т.д.)",
+            "What are the varieties of digital options?": "Какие есть разновидности digital опционов?",
+            "Making an option trade, you must choose the underlying asset that will underlie the option. Your forecast will be carried out on this asset.": "Совершая опционную сделку, Вы должны выбрать базовый актив, который будет лежать в основе опциона. На данный актив и будет осуществляться Ваш прогноз.",
+            "Simply, buying a digital contract, you are actually betting on the price movement of such an underlying asset.": "Проще говоря, покупая digital контракт, вы фактически делаете ставку на движение цены такого базового актива.",
+            "An underlying asset is an “item” whose price is taken into account when concluding a trade.As the underlying asset of digital options, the most sought-after products on the markets usually act. There are four types of them:": "Базовый актив — это «предмет», цена которого и берется в расчет при заключении сделки. В качестве базового актива digital опционов обычно выступают самые востребованные продукты на рынках. Их четыре вида:",
+            "securities (shares of world companies)": "ценные бумаги (акции мировых компаний)",
+            "currency pairs (EUR \/ USD, GBP \/ USD, etc.)": "валютные пары (EUR\/USD, GBP\/USD, и т.д.)",
+            "raw materials and precious metals (oil, gold, etc.)": "сырьё и драгоценные металлы (нефть, золото и т.д.)",
+            "indices (S&P 500, Dow, dollar index, etc.)": "индексы (S&P 500, Dow, индекс доллара и т.д)",
+            "A universal underlying asset does not exist. Сhoosing  it you are guided only by your own knowledge, intuition and various kinds of analytical information, as well as market analysis for a particular financial instrument.": "Идеального базового актива не существует. Актив нужно выбирать, опираясь на собственные знания и интуицию, а также на различные аналитические данные.",
+            "What is a trading platform and why is it needed?": "Что такое торговая платформа и для чего она нужна?",
+            "Trading platform - a software complex that allows the Client to conduct trades (operations) using different financial instruments. It has also accesses to various information such as the value of quotations, real-time market positions, actions of the Company, etc.": "Торговая платформа — программный комплекс, посредством которого Клиент имеет возможность проводить сделки (операции) с помощью предложенных финансовых инструментов, а также получает доступ к информации о значении котировок, положении рынка в режиме реального времени, действиях Компании и т.д.",
+            "How to learn quickly how to make money in the digital options market?": "Как быстрее научиться зарабатывать на рынке digital опционов?",
+            "develop your own trading strategies, in which the number of correctly predicted trades will be maximum, and follow them": "выработать собственные стратегии торговли, при которых количество верно спрогнозированных сделок будет максимальным, и следовать им",
+            "diversify your risks": "диверсифицировать свои риски",
+            "In developing strategies, as well as in searching for diversification options, market monitoring, studying analytical and statistical information that can be obtained from various sources (Internet resources, expert opinions, analysts in this field, etc.) will help you, one of which is the Company website.": "В выработке стратегий, а также поиске вариантов диверсификации Вам поможет мониторинг рынка, изучение аналитической и статистической информации, которую можно получить из различных источников (Интернет-ресурсы, заключения экспертов, аналитиков в данной области и т.д.), один из которых – сайт Компании.",
+            "Is the download of the program to a computer or smartphone required?": "Нужно ли загружать программу на компьютер или смартфон?",
+            "No, it's not required. You just need to register on the Company's website in the presented form and open a individual account.": "Нет, не нужно. Необходимо просто зарегистрироваться на сайте Компании по установленной форме и открыть личный Счет.",
+            "At what expense does the Company pay profit to the Client in case of successful trade?": "За счет каких денежных средств Компания производит выплату прибыли Клиенту, в случае проведения им успешной сделки?",
+            "Company earns with customers. Therefore, it is interested in the share of profitable transactions significantly prevailing over the share of unprofitable ones, due to the fact that the Company has a percentage of payments for a successful trading strategy chosen by the Client.": "Компания зарабатывает вместе с Клиентами. Поэтому она заинтересована в том, чтобы доля прибыльных сделок значительно превалировала над долей убыточных, в силу того, что Компания имеет процент от выплат при успешно выбранной Клиентом торговой стратегии.",
+            "In addition, trades conducted by the Client together constitute the trading volume of the Company, which is transferred to a broker or exchange, which in turn are included in the pool of liquidity providers, which together leads to an increase in the liquidity of the market itself.": "Кроме того сделки, проведенные Клиентом, в совокупности составляют торговый объем Компании, который передается брокеру или бирже, которые в свою очередь входят в объединение поставщиков ликвидности, что в совокупности приводит к росту ликвидности самого рынка.",
+            "What is account verification?": "Что такое верификация аккаунта?",
+            "Verification in digital options is a confirmation by the Client of his personal data by providing the Company with additional documents. Verification conditions for the Client are as simple as possible, and the list of documents is minimum. For example, a Company may ask:": "Верификация – это подтверждение Клиентом своих личных данных посредством предоставления Компании дополнительных документов. Условия верификации для Клиента максимально просты, а список документов минимален. Например, Компания может попросить:",
+            "provide a color scan copy of the first spread of the Client's passport (passport page with photo)": "предоставить цветную скан-копию первого разворота паспорта Клиента (страница паспорта с фотографией)",
+            "identify with the help of a \"selfie\" (photograph of himself)": "идентифицироваться с помощью «селфи» (фотография самого себя)",
+            "confirm the address of registration (residence) of the Client, etc": "подтвердить адрес регистрации (проживания) Клиента и т.д.",
+            "The Company may request any documents if it is not possible to fully identify the Client and the data entered by him.": "Компания может запросить любые документы в случае невозможности в полном объеме идентифицировать Клиента и введенные им данные.",
+            "After the electronic copies of documents have been submitted to the Company, the Client will have to wait some time to verify the data provided.": "После передачи Компании электронных копий документов, Клиенту придется подождать некоторое время для проверки предоставленных данных.",
+            "How to understand that I need to go through account verification?": "Как понять, что мне нужно пройти верификацию аккаунта?",
+            "If it becomes necessary to pass verification, you will receive a notification by e-mail and \/ or SMS notification.": "В случае возникновения необходимости пройти верификацию Вы получите соответствующее уведомление на электронную почту и\/или смс-оповещение.",
+            "At the same time, the Company uses the contact details that you specified in the questionnaire during registration (in particular, the email address  and the phone number ). Therefore, be careful and provide relevant and correct information.": "При этом необходимо иметь в виду, что компания использует те конкретные данные (в частности, адрес электронной почты и телефон), которые вы указали при регистрации, поэтому крайне важно предоставлять достоверные и актуальные данные.",
+            "How do I know that I successfully passed verification?": "Как я узнаю, что успешно прошел верификацию?",
+            "You will receive a notification by e-mail and \/ or SMS notification about the completion of the verification process of your account and the ability to proceed with operations on the Company's trading platform.": "Вы получите оповещение на электронную почту и\/или смс-уведомление о завершении процесса верификации Вашего аккаунта и возможности приступать к проведению сделок на торговой платформе Компании.",
+            "Is it possible to indicate other people's (fake) data when registering on the website?": "Можно ли указывать чужие (поддельные) данные при регистрации на сайте?",
+            "No. The client performs self-registration on the Company's website, providing complete and accurate information about himself on issues asked in the registration form, and maintains this information up to date.": "Нет. Клиент осуществляет самостоятельную регистрацию на сайте компании, предоставляя полную и достоверную информацию о себе по вопросам, заданным в регистрационной форме, и поддерживает эту информацию в актуальном состоянии.",
+            "If it is necessary to conduct various kinds of checks of the Client’s identity, the Company can request documents or invite the Client to its office.": "В случае необходимости проведения проверки личности клиента компания вправе запросить соответствующие документы или пригласить клиента в офис.",
+            "If the data entered in the registration fields does not match the data of the submitted documents, your individual profile may be blocked.": "В случае если данные, введенные в поля регистрационной формы, не соответствуют данным, указанным в предоставленных документах, счет может быть заблокирован.",
+            "How long does the verification process take?": "Много ли времени занимает процесс верификации?",
+            "No more than 5 (five) business days from the date the Company receives the requested documents.": "Не более 5 (пяти) рабочих дней с даты получения Компанией запрошенных документов.",
+            "Is there a minimum amount that I can deposit to my account at registration?": "Установлен ли размер минимальной суммы, которую я могу зачислить на счет при регистрации?",
+            "The advantage of the Company’s trading platform is that you don’t have to deposit large amounts to your account. You can start trading by investing a small amount of money. The minimum deposit is %s US dollars.": "Преимущество торговой платформы Компании в том числе в том, что Вам не придется зачислять на счет крупные суммы. Начать торговлю Вы можете, инвестировав незначительную сумму денег. Минимальный депозит составляет 10 долларов США.",
+            "How can I deposit?": "Как можно пополнить счет?",
+            "It is very easy to do. The procedure will take a couple of minutes.": "Сделать это очень просто. Процедура займет пару минут.",
+            "Open the trade execution window and click on the green \"Deposit\" button in the upper right corner of the tab.": "Откройте окно исполнения сделки и нажмите зеленую кнопку «Пополнить» в правом верхнем углу вкладки.",
+            "You can also deposit the account through your Personal Account by clicking the \"Deposit\" button in the account profile.": "Пополнить счет можно также через Ваш Личный кабинет, нажав кнопку «Пополнить» в профиле аккаунта.",
+            "After it is necessary to choose a method of depositing the account (the Company offers a lot of convenient methods that are available to the Client and are displayed in his individual account).": "После необходимо выбрать способ пополнения счета (Компания предлагает массу удобных способов, которые доступны Клиенту и отображаются в его личном кабинете).",
+            "Next, indicate the currency in which the account will be deposited, and accordingly the currency of the account itself.": "Далее укажите валюту, в которой будет производиться пополнение счета, и соответственно валюту самого счета.",
+            "Enter the amount of the deposit.": "Введите размер пополнения.",
+            "Fill out the form by entering the requested payment details.": "Заполните предложенную форму, введя запрашиваемые платежные данные.",
+            "Make a payment.": "Произведите платеж.",
+            "Do I need to deposit the account of the trading platform and how often do I need to do this?": "Нужно ли пополнять счет на торговой платформе и как часто это нужно делать?",
+            "To work with digital options you need to open an individual account. To conclude real trades, you will certainly need to make a deposit in the amount of options purchased.": "Для работы с Digital Trading опционами Вам необходимо открыть личный счет. Чтобы заключать реальные сделки Вам безусловно нужно будет его пополнять на сумму приобретаемых опционов.",
+            "You can start trading without cash, only using the company's training account (demo account). Such an account is free of charge and created to demonstrate the functioning of the trading platform. With the help of such an account, you can practice acquiring digital options, understand the basic principles of trading, test various methods and strategies, or evaluate the level of your intuition.": "Начать торговлю без денежных средств можно только используя учебный счет компании (демо-счет). Такой счет является бесплатным и создан для демонстрации функционирования торговой платформы. С помощью такого счета Вы можете потренироваться в приобретении digital опционов, понять основные принципы торговли, протестировать различные методики и стратегии, или же оценить уровень Вашей интуиции.",
+            "What is the minimum deposit amount?": "Какая минимальная сумма пополнения счета?",
+            "{number} questions": "{number} вопросов",
+            "Verification": "Верификация",
+            "Payment": "Пополнения",
+            "Payouts": "Выплаты",
+            "Ask a specialist": "Задать вопрос специалисту",
+            "FAQ": "Частые вопросы",
+            "Open knowledge base": "Открыть документацию",
+            "Trading Platform": "Платформа",
+            "What account do you want to continue trading on?": "На каком счете вы хотите продолжить торговлю?",
+            "Your demo account has a {balance} balance": "На балансе вашего демо-аккаунта -  {balance}",
+            "Update your account without limit": "Демо-счет можно обновить",
+            "Available not all assets": "Некоторые активы недоступны",
+            "Without risk": "Без риска",
+            "Trading on the demo account": "Торговать на демо-счете",
+            "Real account": "Реальный счет",
+            "Top up your account with the minimum amount and start earning": "Пополните счет на минимальную сумму и начните зарабатывать",
+            "Participate in tournaments": "Участвуйте в турнирах",
+            "More assets and features": "Больше активов и функций",
+            "Minimum deposit": "Минимальная сумма пополнения",
+            "Have you Run out of funds?": "У вас недостаточно средств?",
+            "Your balance is ${balance}. Top up and Continue trading with Quotex!": "Ваш баланс равен ${balance}. Пополните счет и продолжите торговлю на Quotex",
+            "Your last deposit was at {lastDate}": "Последний раз счет был пополнен {lastDate}",
+            "Top up with {amount}": "Пополнить на {amount}",
+            "Trade on a real account": "Торговля на реальном счете",
+            "You are ready to trade Live!": "Вы готовы к торговле реальными деньгами!",
+            "Earn unlimited money": "Неограниченный заработок",
+            "Use strategies": "Пользуйтесь стратегиями",
+            "All platform functionality is available": "Доступен весь функционал платформы",
+            "Risk Warning: Trading on financial markets carries risks and may not be suitable for all investors due to the high risk of losing the capital. You should not risk more than you are prepared to lose.": "Предупреждение о риске: Торговля на финансовых рынках сопряжена с высоким уровнем риска и подходит не всем инвесторам, так как существует риск полной потери инвестированного капитала. Не следует инвестировать средства, потерять которые вы не можете себе позволить.",
+            "Deposit funds": "Пополнение счета",
+            "Refill demo {amount}": "Обновить демо {amount}",
+            "Demo balance is less than {amount}": "Демо-баланс меньше {amount}",
+            "You are actively practising! Way to go! Try investing on a real account or refill your demo balance with {amount} for free.": "Вы активно торгуете! Продолжайте! Попробуйте торговлю в реальном аккаунте или обновите баланс демо аккаунта {amount}",
+            "Now you have:": "Теперь у вас есть:",
+            "{percent}% bonus": "Бонус {percent}%",
+            "Decline": "Отмена",
+            "In order to collect your bonus you must ensure a certain turnover": "Чтобы получить бонус, необходимо накопить определенный оборот торговли",
+            "Your turnover": "Ваш оборот",
+            "To finish your bonus": "Осталось для вывода бонуса",
+            "Do you confirm that you decline your current <b>{percent}% bonus<\/b>": "Вы действительно хотите отказаться от текущего <b>бонуса {percent}%<\/b>?",
+            "Yes, confirm": "Да, подтверждаю",
+            "No, cancel": "Нет, отмена",
+            "You have successfully declined {percent}% bonus. Now you trade without a bonus.": "Вы успешно отказались от бонуса в размере {percent}%. Теперь вы можете торговать без бонусов.",
+            "Error has occurred! Try to decline the bonus later, or write to our support.": "Произошла ошибка. Повторите попытку позже или обратитесь в службу поддержки.",
+            "Ok, close window": "ОК, закрыть окно",
+            "Deposit Bonus terms of use": "Условия использования Бонуса к депозиту",
+            "A bonus is virtual money that is credited to your balance upon deposit. Depending on the promo code, the bonus can be from 10% to 100%.": "Бонус - это виртуальные денежные средства, зачисляемые на ваш баланс при пополнении. В зависимости от промокода, бонус может быть от 10% до 100%.",
+            "Bonus wagering rules": "Правила отыгрыша бонуса",
+            "You cannot withdraw bonus funds immediately. They are virtual. To transfer bonus funds into real funds, make a trading turnover of non-hedging transactions equal to the bonus amount multiplied by 100. After that, the bonus funds will become real.": "Вывести бонусные средства сразу нельзя. Они виртуальные. Для перевода бонусных средств в реальные, сделайте торговый оборот не хеджирующих сделок, равный сумме бонуса, умноженного на 100. После этого бонусные средства станут реальными.",
+            "The progress of wagering the bonus can be seen in the account selection panel.": "Прогресс отыгрыша бонуса видно в панели выбора счета.",
+            "Canceling a bonus or withdrawal funds with a valid bonus": "Отмена бонуса или вывод средств с действующим бонусом",
+            "You can cancel the bonus in your personal account. In this case, your balance will be reduced by the amount of the bonus received. When withdrawing funds with a valid bonus, the bonus is automatically canceled, and the amount of the accrued bonus is deducted from the withdrawal amount.": "Вы можете отменить бонус в личном кабинете. При этом ваш баланс будет уменьшен на сумму полученного бонуса. При выводе средств с действующем бонусом - бонус также автоматически отменяется.",
+            "Chart {asset} isn’t available at the moment!": "График актива {asset} в настоящий момент недоступен.",
+            "Deposit account": "Пополнить счет",
+            "Live Account": "Реальный счет",
+            "Demo Account": "Демо счет",
+            "Drawings": "Рисование",
+            "Trend indicators": "Индикаторы тренда",
+            "Oscillators": "Осцилляторы",
+            "Indicators": "Индикаторы",
+            "Settings": "Настройки",
+            "Language": "Язык",
+            "Time": "Время",
+            "Up": "Выше",
+            "Down": "Ниже",
+            "Your payout:": "Ваша выплата:",
+            "More": "Подробнее",
+            "Leader Board": "Рейтинг",
+            "Support": "Поддержка",
+            "Logout": "Выйти",
+            "About us": "О нас",
+            "Deposit": "Пополнение",
+            "Withdrawal": "Вывод",
+            "Transactions": "Транзакции",
+            "Help": "Помощь",
+            "Trade": "Торговля",
+            "Demo": "Демо",
+            "Profile": "Профиль",
+            "Analytics": "Аналитика",
+            "Top": "ТОП",
+            "Indices": "Индексы",
+            "Stocks": "Акции",
+            "Commodities": "Сырье",
+            "Currencies": "Валюты",
+            "Crypto": "Криптовалюты",
+            "Result (P\/L)": "Результат",
+            "End of trade": "Окончание\nсделки",
+            "Beginning of trade": "Начало\nсделки",
+            "High:": "Максимум:",
+            "Low:": "Минимум:",
+            "Open:": "Открытие:",
+            "Close:": "Закрытие:",
+            "Area": "Зона",
+            "Line": "Линия",
+            "Candles": "Свечи",
+            "Bars": "Бары",
+            "Heiken Ashi": "Heiken Ashi",
+            "Period": "Период",
+            "Overbought Level": "Уровень перекупленности",
+            "Oversold Level": "Уровень перепроданности",
+            "Trade opened with price:": "Сделка открыта по цене:",
+            "ID": "ID",
+            "Trade Pair": "Торговая пара",
+            "Close Time": "Время закрытия",
+            "Open Price": "Цена открытия",
+            "Close Price": "Цена закрытия",
+            "Open time": "Время открытия",
+            "You don't have a trade history yet. You can open a trade using the form above.": "У вас еще нет истории торговли. Вы можете открыть сделку, используя форму выше.",
+            "ao": "Awesome Oscillator",
+            "vo": "Volume Oscillator",
+            "wwv": "Weis Waves Volume Oscillator",
+            "macd": "MACD",
+            "rsi": "RSI",
+            "so": "Stochastic Oscillator",
+            "adx": "ADX",
+            "roc": "Rate Of Change",
+            "aro": "Aroon",
+            "cci": "CCI",
+            "dem": "DeMarker",
+            "ADX Smoothing": "ADX Smoothing",
+            "DI Length": "DI Length",
+            "will": "Williams %R",
+            "bup": "Bulls power",
+            "bep": "Bears power",
+            "mom": "Momentum",
+            "vor": "Vortex",
+            "ma": "Moving Average",
+            "bb": "Bollinger Bands",
+            "all": "Alligator",
+            "fra": "Fractal",
+            "sar": "Parabolic SAR",
+            "zz": "Zig Zag",
+            "env": "Envelopes",
+            "icc": "Ichimoku Cloud",
+            "kch": "Keltner channel",
+            "dch": "Donchian channel",
+            "sup": "Supertrend",
+            "atr": "ATR",
+            "stc": "Schaff Trend Cycle",
+            "Jaws Period": "Jaws Period",
+            "Jaws Shift": "Jaws Shift",
+            "Teeth Period": "Teeth Period",
+            "Teeth Shift": "Teeth Shift",
+            "Lips Period": "Lips Period",
+            "Lips Shift": "Lips Shift",
+            "Period Short": "Period Short",
+            "Period Long": "Period Long",
+            "Deviation": "Отклонение",
+            "Multiplier": "Множитель",
+            "Fast period": "Быстрый период",
+            "Slow period": "Медленный период",
+            "Signal period": "Период сигнала",
+            "Acceleration": "Ускорение",
+            "Max acceleration": "Максимальное ускорение",
+            "Horizontal line": "Горизонтальная линия",
+            "Vertical line": "Вертикальная линия",
+            "Ray": "Луч",
+            "Fibonacci Retracement": "Коррекция Фибоначчи",
+            "Fibonacci Fan": "Веер Фибоначчи",
+            "Trend Line": "Линия тренда",
+            "Parallel Channel": "Параллельный канал",
+            "Rectangle": "Прямоугольник",
+            "Cross Line": "Cross Line",
+            "Trend Angle": "Trend Angle",
+            "Disjoint Channel": "Disjoint Channel",
+            "Triangle": "Triangle",
+            "Extended Line": "Extended Line",
+            "Date Range": "Временной диапазон",
+            "Price Range": "Сумма",
+            "Max amount is": "Макс. сумма",
+            "Min amount is": "Мин. сумма",
+            "Min amount:": "Мин. сумма:",
+            "Max amount:": "Макс. сумма:",
+            "Unexpected error": "Непредвиденная ошибка",
+            "Incorrect time": "Неверное время",
+            "Not enough funds": "У вас недостаточно средств",
+            "Contact support": "Связь со службой поддержки",
+            "Open FAQ page": "Открыть страницу FAQ",
+            "Investment": "Инвестиции",
+            "Trading signals": "Торговые сигналы",
+            "Past signals": "Прошлые сигналы",
+            "What’s it?": "Что это такое?",
+            "A trading signal is not a direct instruction to trade, but an analyst recommendation. It should not replace independent market analysis.": "Торговый сигнал - это не прямая инструкция к торговле, а рекомендация аналитика. Сигнал не заменяет независимый анализ рынка и не гарантирует прогнозируемого исхода.",
+            "You have an average of 10 minutes to take advantage of the trading signal. After this time, the quotes may change and have an unexpected effect on the trade result.": "Каждый сигнал имеет свое время, которое он актуален. По истечении этого времени котировки могут измениться и оказать неожиданное влияние на результат сделки.",
+            "Continue": "Продолжить",
+            "Select trade pair": "Выберите торговый актив",
+            "Get a {bonus}% bonus on your first deposit": "Получите бонус {bonus}% на ваш депозит",
+            "Signals": "Сигналы",
+            "Opacity": "Прозрачность",
+            "Do you confirm this trade in {label} on {amount} in {time}?": "Вы подтверждаете открытие сделки {label} на сумму  {amount} и временем {time}?",
+            "currency": "валюта",
+            "Change": "Поменять",
+            "You are exchanging": "Вы меняете",
+            "You will receive": "Вы получите",
+            "Exchange Fee": "Комиссия",
+            "Night Mode": "Темная тема",
+            "Template": "Тема платформы",
+            "Light Mode": "День",
+            "Twilight": "Сумерки",
+            "Full Night": "Ночь",
+            "Grid's opacity": "Прозрачность сетки",
+            "Auto-scrolling": "Автопрокрутка",
+            "Automatic graphic scrolling": "Автоматическая прокрутка графика",
+            "1-click trade": "Сделки в 1 клик",
+            "Open trades without confirmation": "Открывать сделки без подтверждения",
+            "Use timezone": "Использовать часовой пояс",
+            "Use your timezone data": "Использовать информацию о Вашем часовом поясе",
+            "Graph colors": "Цвета графика",
+            "Up Trend": "Восходящий тренд",
+            "Down Trend": "Нисходящий тренд",
+            "Platform": "Платформа",
+            "Currency:": "Валюта:",
+            "Exchange Form": "Смена валюты счета",
+            "My Currency:": "Текущая валюта:",
+            "New Currency:": "Новая валюта",
+            "from 5 min": "от 5 мин.",
+            "Rev. from 1 min": "от 1 мин.",
+            "Market Closed": "Рынок закрыт",
+            "You have a new answer on your request. Go to the Support Page.": "У вас новое сообщение от службы поддержки.",
+            "Flat Top\/Bottom": "Flat Top\/Bottom",
+            "Arc": "Arc",
+            "Curve": "Curve",
+            "Pitchfan": "Pitchfan",
+            "Switch": "Переключить",
+            "Switch time": "Переключить",
+            "Investment:": "Инвестиция:",
+            "Cyclic Lines": "Циклические Линии",
+            "Gann Box": "Gann Box",
+            "Perfomance Mode": "Производительный режим",
+            "Use optimized rendering for chart and candles": "Оптимизированный режим для свечного и зонного графиков",
+            "New message": "Новое сообщение",
+            "Trades": "Сделки",
+            "Timezone": "Часовой пояс",
+            "Cashback Information": "Информация о Кэшбеке",
+            "Percentage of turnover": "Процент от оборота",
+            "Percentage of turnover {percent}%": "Процент от оборота {percent}%",
+            "Cashback {percent}%": "Кешбэк {percent}%",
+            "{percent}% of loss": "{percent}% от убытка",
+            "{percent}% of turnover": "{percent}% от оборота",
+            "7% of turnover": "7% от оборота",
+            "No losses": "Без убытка",
+            "Activated:": "Активирован:",
+            "Remaining:": "Осталось:",
+            "The current trading result during the validity period of the promo code — cashback is not accumulating.": "Текущий торговый результат в течение срока действия промокода - кэшбэк не накапливается.",
+            "The current trading result during the validity period of the promo code — cashback is accumulating.": "Текущий торговый результат в течение срока действия промокода - кэшбэк накапливается.",
+            "The current trading turnover during the validity period of the promo code.": "Текущий торговый оборот за время действия промокода.",
+            "The trading result during the validity period of the promo code.": "Результат торговли в течение срока действия промокода.",
+            "The trading turnover during the validity period of the promo code.": "Торговый оборот за время действия промокода.",
+            "Active now": "Активен",
+            "From:": "С:",
+            "Until:": "По:",
+            "Cashback": "Кешбэк",
+            "Your cashback will be credited to your account only at the end of the promo code validity period": "Ваш кэшбек будет зачислен на Ваш торговый счёт только по окончании срока действия промокода.",
+            "Account levels": "Уровни счета",
+            "Active": "Активно",
+            "Inactive": "Неактивно",
+            "Standart": "Стандарт",
+            "Level for beginners": "Уровень, доступный сразу после регистрации",
+            "Basic percentage of profitability for all instruments": "Базовые проценты доходности по всем инструментам",
+            "Level for casual traders": "Уровень для постоянных трейдеров",
+            "Increased percentage of profitability for all instruments": "Повышенный процент доходности по всем инструментам",
+            "Promo codes from the market in mailings and promotions": "Промокоды из Маркета в рассылках и акциях",
+            "Balance from {amount}": "Баланс от {amount}",
+            "Level for professional traders": "Уровень для профессиональных трейдеров",
+            "+{value}% profit": "+{value}% доходность",
+            "standart": "стандарт",
+            "Short order label": "Краткий вид сделок",
+            "Use short order element mode": "Отключите отображение времени и суммы сделки на графике",
+            "For technical reasons, we cannot show the chart of this pair, please choose another trading pair.": "По техническим причинам мы не можем показать график этой пары, пожалуйста, выберите другую торговую пару.",
+            "Payout": "Выплата",
+            "Official": "Official",
+            "Trade ID": "ID сделки",
+            "Asset": "Инструмент",
+            "Type": "Тип",
+            "Duration": "Длительность",
+            "Income": "Результат",
+            "Opening quote": "Котировка, открытие",
+            "Closing quote": "Котировка, закрытие",
+            "Chart": "График",
+            "Difference": "Разница",
+            "points": "пунктов",
+            "Not found": "Не найдено",
+            "Result": "Результат",
+            "Background": "Фон",
+            "Choose file": "Выбрать файл",
+            "Max size — 2 Mb": "Макс. Размер - 2 Мб",
+            "New value": "Новое значение",
+            "Edit": "Редактировать",
+            "Confirm": "Подтвердить",
+            "rollover.deal_not_found": "Сделка не найдена",
+            "rollover.account_not_found": "Аккаунт не найден",
+            "rollover.profitable_deal": "Прибыльная сделка",
+            "rollover.min_time": "Неверное мин время",
+            "rollover.min_amount": "Неверная мин сумма",
+            "rollover.max_amount": "Неверная макс сумма",
+            "rollover.not_enough_funds": "Недостаточно средств",
+            "rollover.max_expiration_time": "Макс время экспирации",
+            "double.access_denied": "Недоступно, так как до конца сделки осталось меньше 1 минуты",
+            "Export to": "Экспорт",
+            "pending trade": "отложенная сделка",
+            "Set manually": "Ввести другое",
+            "Trade will close after": "Сделка закроется через",
+            "timer": "таймер",
+            "time": "время",
+            "Order list is empty.": "Список ордеров пуст.",
+            "Create a pending trade using the form above.": "Создайте отложенную сделку используя форму выше.",
+            "Pending order": "Отложенная сделка",
+            "Pending trade": "Отложенная сделка",
+            "quote": "котировка",
+            "Period:": "Период:",
+            "Quote:": "Котировка:",
+            "Current quote:": "Текущая котировка:",
+            "Time:": "Время:",
+            "Timer:": "Таймер:",
+            "Current time:": "Текущее время:",
+            "Put": "Ниже",
+            "Orders": "Ордера",
+            "Amount:": "Сумма:",
+            "Open time:": "Время открытия:",
+            "Price:": "Цена:",
+            "Current price:": "Текущая цена:",
+            "Cancel": "Отменить",
+            "Pending order successfully created": "Отложенная сделка успешно создана",
+            "Cannot open pending order": "Не получается открыть отложенную сделку",
+            "Minimal opening time from 1 minute": "Минимальное время открытия - от 1 минуты",
+            "Cannot cancel pending order": "Не получается отменить отложенную сделку",
+            "Pending order successfully cancelled": "Отложенная сделка успешно отменена",
+            "Notifications": "Уведомления",
+            "mark all as read": "пометить все прочитанными",
+            "No notifications": "Нет уведомлений",
+            "No more notifications": "Уведомлений больше нет",
+            "There are several reasons why an account may become closed:": "There are several reasons why an account may become closed:",
+            "1. No activity.": "1. No activity.",
+            "The most common reason is that the account was closed for being inactive (no logins\/activity) for a long period of time – from 3 moths and more. Such accounts get deleted, if there are no funds on the balance, and they cannot be restored. You are free to register a new account. (provided there are no other active accounts registered by you on the Platform": "The most common reason is that the account was closed for being inactive (no logins\/activity) for a long period of time – from 3 moths and more. Such accounts get deleted, if there are no funds on the balance, and they cannot be restored. You are free to register a new account. (provided there are no other active accounts registered by you on the Platform",
+            "The email cannot be reused. You would need to use a different email address.": "The email cannot be reused. You would need to use a different email address.",
+            "2. Deleted by the owner.": "2. Deleted by the owner.",
+            "If there are no funds on the balance, such accounts cannot be restored. As in previous case, you can simply make sure there are no other active accounts registered by you on the Platform, and create a new one.": "If there are no funds on the balance, such accounts cannot be restored. As in previous case, you can simply make sure there are no other active accounts registered by you on the Platform, and create a new one.",
+            "If you have deleted your account yourself by mistake, and there are funds on its balance – please contact support for details (using the «Contacts» form on the main page of the website). The operators will check and see if the account can be restored.": "If you have deleted your account yourself by mistake, and there are funds on its balance – please contact support for details (using the «Contacts» form on the main page of the website). The operators will check and see if the account can be restored.",
+            "If it’s possible to restore the account, you will be asked to provide": "If it’s possible to restore the account, you will be asked to provide",
+            "A high-resolution photo of yourself (selfie) on which you are holding your document for identification (your passport or national ID will do) along with a sheet of paper with the name «QUOTEX» written on it by hand, current date and your signature. Your face, body and both arms must be visible. The details of the document should be clear and readable.": "A high-resolution photo of yourself (selfie) on which you are holding your document for identification (your passport or national ID will do) along with a sheet of paper with the name «QUOTEX» written on it by hand, current date and your signature. Your face, body and both arms must be visible. The details of the document should be clear and readable.",
+            "Screenshots of the receipts for deposits in that account (a bank statement or detailed receipts from the payment system you used for depositing will do).": "Screenshots of the receipts for deposits in that account (a bank statement or detailed receipts from the payment system you used for depositing will do).",
+            "3. Duplicated accounts.": "3. Duplicated accounts.",
+            "It’s only allowed to have one active account on the Platform. If other accounts registered by the same person are detected they may be deleted with no warning (c 1.30 of the Service Agreement).": "It’s only allowed to have one active account on the Platform. If other accounts registered by the same person are detected they may be deleted with no warning (c 1.30 of the Service Agreement).",
+            "4. Deleted for violation of the Service Agreement.": "4. Deleted for violation of the Service Agreement.",
+            "The owner gets notified on the details of violation, and the possibility of refund, and if applicable, is asked to provide the required documents.": "The owner gets notified on the details of violation, and the possibility of refund, and if applicable, is asked to provide the required documents.",
+            "In case of automatic detection of violations (e.g. using automated trading software) – the Company reserves the right not to notify the owner in advance. (You may contact support via the “Contacts” form at the bottom of the website’s front page for details and refund (if applicable). We remind you that all statutory documents (Service Agreement and its annexes) are publicly available and can be revisited at any time on the Company’s website.": "In case of automatic detection of violations (e.g. using automated trading software) – the Company reserves the right not to notify the owner in advance. (You may contact support via the “Contacts” form at the bottom of the website’s front page for details and refund (if applicable). We remind you that all statutory documents (Service Agreement and its annexes) are publicly available and can be revisited at any time on the Company’s website.",
+            "Opening deals by time is currently available only for OTC trading.": "Opening deals by time is currently available only for OTC trading."
+        };
+    </script>
+
+
+    <script type="text/javascript">
+        window.settings = {
+            "fpjsDomain": null,
+            "lastDeposit": null,
+            "firstRegister": true,
+            "showTelegramModal": false,
+            "liveBalance": "0.00000000",
+            "demoBalance": "500000.00000000",
+            "bonus": [],
+            "possibleBonus": {
+                "use_affiliate": 0,
+                "promocode": "WELCOME30",
+                "percent": 30
+            },
+            "activePromocodes": [],
+            "isDemo": 1,
+            "id": "18228518",
+            "token": "J2kSTUn3P20MJ5QyrhHZEbEp4hDqPKLmtiyDAOBt",
+            "csrf": "meuy3n47Jg56D5i4cwQFlysuDVrdkYskXaktL55q",
+            "nickname": "#18228518",
+            "email": "demo639af6b88ad80d@quotex.com",
+            "avatar": "https:\/\/market-quotex.net\/profile\/images\/avatar.svg",
+            "country": "RU",
+            "countryName": "Russia",
+            "countryIp": "RU",
+            "url": "https:\/\/market-quotex.net\/ru\/",
+            "lang": "ru",
+            "langs": {
+                "en": {
+                    "code": "gb",
+                    "url": "\/en\/demo-trade\/",
+                    "name": "English",
+                    "active": false
+                },
+                "ru": {
+                    "code": "ru",
+                    "url": "\/ru\/demo-trade\/",
+                    "name": "Русский",
+                    "active": true
+                }
+            },
+            "tzlist": [{
+                "value": "-39600",
+                "time": "-11:00",
+                "label": "(UTC-11:00)"
+            }, {
+                "value": "-36000",
+                "time": "-10:00",
+                "label": "(UTC-10:00)"
+            }, {
+                "value": "-34200",
+                "time": "-09:30",
+                "label": "(UTC-09:30)"
+            }, {
+                "value": "-32400",
+                "time": "-09:00",
+                "label": "(UTC-09:00)"
+            }, {
+                "value": "-28800",
+                "time": "-08:00",
+                "label": "(UTC-08:00)"
+            }, {
+                "value": "-25200",
+                "time": "-07:00",
+                "label": "(UTC-07:00)"
+            }, {
+                "value": "-21600",
+                "time": "-06:00",
+                "label": "(UTC-06:00)"
+            }, {
+                "value": "-18000",
+                "time": "-05:00",
+                "label": "(UTC-05:00)"
+            }, {
+                "value": "-14400",
+                "time": "-04:00",
+                "label": "(UTC-04:00)"
+            }, {
+                "value": "-12600",
+                "time": "-03:30",
+                "label": "(UTC-03:30)"
+            }, {
+                "value": "-10800",
+                "time": "-03:00",
+                "label": "(UTC-03:00)"
+            }, {
+                "value": "-7200",
+                "time": "-02:00",
+                "label": "(UTC-02:00)"
+            }, {
+                "value": "-3600",
+                "time": "-01:00",
+                "label": "(UTC-01:00)"
+            }, {
+                "value": "0",
+                "time": "+00:00",
+                "label": "(UTC+00:00)"
+            }, {
+                "value": "3600",
+                "time": "+01:00",
+                "label": "(UTC+01:00)"
+            }, {
+                "value": "7200",
+                "time": "+02:00",
+                "label": "(UTC+02:00)"
+            }, {
+                "value": "10800",
+                "time": "+03:00",
+                "label": "(UTC+03:00)"
+            }, {
+                "value": "12600",
+                "time": "+03:30",
+                "label": "(UTC+03:30)"
+            }, {
+                "value": "14400",
+                "time": "+04:00",
+                "label": "(UTC+04:00)"
+            }, {
+                "value": "16200",
+                "time": "+04:30",
+                "label": "(UTC+04:30)"
+            }, {
+                "value": "18000",
+                "time": "+05:00",
+                "label": "(UTC+05:00)"
+            }, {
+                "value": "19800",
+                "time": "+05:30",
+                "label": "(UTC+05:30)"
+            }, {
+                "value": "20700",
+                "time": "+05:45",
+                "label": "(UTC+05:45)"
+            }, {
+                "value": "21600",
+                "time": "+06:00",
+                "label": "(UTC+06:00)"
+            }, {
+                "value": "23400",
+                "time": "+06:30",
+                "label": "(UTC+06:30)"
+            }, {
+                "value": "25200",
+                "time": "+07:00",
+                "label": "(UTC+07:00)"
+            }, {
+                "value": "28800",
+                "time": "+08:00",
+                "label": "(UTC+08:00)"
+            }, {
+                "value": "31500",
+                "time": "+08:45",
+                "label": "(UTC+08:45)"
+            }, {
+                "value": "32400",
+                "time": "+09:00",
+                "label": "(UTC+09:00)"
+            }, {
+                "value": "34200",
+                "time": "+09:30",
+                "label": "(UTC+09:30)"
+            }, {
+                "value": "36000",
+                "time": "+10:00",
+                "label": "(UTC+10:00)"
+            }, {
+                "value": "37800",
+                "time": "+10:30",
+                "label": "(UTC+10:30)"
+            }, {
+                "value": "39600",
+                "time": "+11:00",
+                "label": "(UTC+11:00)"
+            }, {
+                "value": "43200",
+                "time": "+12:00",
+                "label": "(UTC+12:00)"
+            }, {
+                "value": "46800",
+                "time": "+13:00",
+                "label": "(UTC+13:00)"
+            }, {
+                "value": "49500",
+                "time": "+13:45",
+                "label": "(UTC+13:45)"
+            }, {
+                "value": "50400",
+                "time": "+14:00",
+                "label": "(UTC+14:00)"
+            }],
+            "timeOffset": "0",
+            "currencyCode": "RUB",
+            "currencySymbol": "₽",
+            "currencies": ["EUR", "GBP", "USD", "BRL", "IDR", "MYR", "INR", "KZT", "RUB", "THB", "UAH"],
+            "profileLevel": "standart",
+            "exchangeRates": {
+                "EUR": 0.014672656432634611,
+                "GBP": 0.012630031948881787,
+                "USD": 0.015584820384945061,
+                "BRL": 0.08227382529416347,
+                "IDR": 243.5938595807683,
+                "MYR": 0.06884594405049481,
+                "INR": 1.289609600249357,
+                "KZT": 7.31154055949505,
+                "RUB": 1,
+                "THB": 0.5437387984103483,
+                "UAH": 0.5749427257850852,
+            },
+            "countUnreadedMessages": 0,
+            "countUnreadedNotifications": 0,
+            "hasProfileNotifications": false,
+            "minDealAmount": 50,
+            "maxDealAmount": 50000,
+            "minDepositAmount": 500,
+            "recommendedDepositAmount": 5000,
+            "defaultError": "Возникла ошибка",
+            "levelsList": [0, 75000, 380000],
+            "onlyFastAllowed": false,
+            "tgLink": "quotex_io",
+            "background": [],
+            "maxDemoBalance": 500000,
+            "isHideTradingUI": false
+        };
+    </script>
+<!--    <script src="../trade-room/files/vendor.js"></script>-->
+<!--    <script src="../trade-room/files/main.js"></script>-->
+    <script type="text/javascript">
+        anychart.onDocumentReady(function () {
+
+            // create data
+
+            var data = [
+                [Date.UTC(2007, 07, 23), 23.55, 23.88, 23.38, 23.62],
+                [Date.UTC(2007, 07, 24), 22.65, 23.7, 22.65, 23.36],
+                [Date.UTC(2007, 07, 25), 22.75, 23.7, 22.69, 23.44],
+                [Date.UTC(2007, 07, 26), 23.2, 23.39, 22.87, 22.92],
+                [Date.UTC(2007, 07, 27), 23.98, 24.49, 23.47, 23.49],
+                [Date.UTC(2007, 07, 30), 23.55, 23.88, 23.38, 23.62],
+                [Date.UTC(2007, 07, 31), 23.88, 23.93, 23.24, 23.25],
+                [Date.UTC(2007, 08, 01), 23.17, 23.4, 22.85, 23.25],
+            [Date.UTC(2007, 08, 02), 22.65, 23.7, 22.65, 23.36],
+            [Date.UTC(2007, 08, 03), 23.2, 23.39, 22.87, 22.92],
+            [Date.UTC(2007, 08, 06), 23.03, 23.15, 22.44, 22.97],
+            [Date.UTC(2007, 08, 07), 22.75, 23.7, 22.69, 23.44]
+        ];
+
+// create a chart
+            chart = anychart.candlestick();
+
+// create a japanese candlestick series and set the data
+            var series = chart.candlestick(data);
+
+// set the container id
+            chart.container("container");
+
+// initiate drawing the chart
+            chart.draw();
+
+            // set the chart title
+            // var title = chart.title("Box Chart: Basic Sample");
+
+            // set the interactivity mode
+            chart.interactivity("by-x");
+            chart.background().fill("#1c1f2d");
+
+            // set the containder id
+            chart.container("graph");
+
+            // initiate drawing the chart
+            chart.draw();
+        });
+        (function() {
+            var messages = {
+                "day": "\u0434\u0435\u043d\u044c",
+                "days2": "\u0434\u043d\u044f",
+                "days5": "\u0434\u043d\u0435\u0439"
+            };
+            window.tJSON = window.tJSON || {};
+            for (var i in messages) {
+                if (messages.hasOwnProperty(i)) {
+                    window.tJSON[i] = messages[i];
+                }
+            }
+        })();
+    </script>
+</body>
+
+</html>

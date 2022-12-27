@@ -1,0 +1,5 @@
+# Default ignored files
+.idea
+.vscode
+# Editor-based HTTP Client requests
+/httpRequests/
